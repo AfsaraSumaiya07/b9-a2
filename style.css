@@ -7,40 +7,356 @@ body {
   font-family: "Mulish", sans-serif;
 }
 /* navbar section starts here */
-.nav-container{
-    max-width: 1250px;
-    height:145px ;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav-part1{
-    display: flex;
+.nav-container {
+  height: 145px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
-.logo img{
+.nav-part1 {
+  display: flex;
+  align-items: center;
+}
+.logo img {
   width: 50px;
   height: 55px;
-  margin-top:10px ;
+  margin-top: 10px;
 }
 .logo-text {
   color: #131318;
   font-size: 35px;
   font-weight: 800;
+  padding: 10px;
+}
+span {
+  color: #ff5400;
+  padding: 10px;
+}
+.nav-part2 a {
+  text-decoration: none;
+  color: var(--Dark-02, #424247);
+  font-size: 20px;
+  font-weight: 400;
   padding: 20px;
 }
-span{
-    color: #FF5400;
-    padding: 10px;
+.menu {
+  display: none;
 }
-.nav-part2 a{
-    text-decoration:none;
-    color: var(--Dark-02, #424247);
-font-size: 20px;
-font-weight: 400; 
-padding: 20px; 
+/* banner section starts here */
+.banner {
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
-.menu{
-    display: none;
+.banner-img {
+  width: 1170px;
+  height: 500px;
+  border-radius: 15px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("./Images/Group\ 13\ \(1\)\ \(1\).png");
+  margin: 0 auto;
+}
+.banner-text h1 {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 800;
+  margin-top: 105px;
+}
+.caption {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 50px;
+}
+.bannerinput-cont {
+  display: inline-block;
+  margin-top: 50px;
+  width: 800px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  padding: 20px;
+}
+.banner-input {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.input-primary {
+  width: 175px;
+  height: 50px;
+  border-radius: 8px;
+  padding-left: 5px;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 15px;
+  font-weight: 400;
+}
+.button-icon {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+}
+.button-primary {
+  width: 175px;
+  height: 50px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #ff5400;
+  border: none;
+  font-weight: 700;
+  font-size: 15px;
+}
+/* our popular tours section starts here */
+.popular {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 100px;
+}
+.common-style {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+li {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 30px;
+}
+p {
+  color: rgba(19, 19, 24, 0.7);
+}
+.popular-img {
+  width: 540px;
+  height: 550px;
+  margin-left: 50px;
+}
+.part1 {
+  margin-left: 80px;
+}
+
+/* Choose Your Destination section starts here */
+.destination {
+  margin-top: 100px;
+}
+.destination-text {
+  text-align: center;
+}
+.destination-images {
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.des-row1 {
+  display: flex;
+  justify-content: center;
+}
+.des-img1,
+.des-img2 {
+  width: 570px;
+  height: 300px;
+  margin: 7px;
+  border-radius: 16px;
+}
+.des-img3 {
+  width: 375px;
+  height: 285px;
+  margin: 7px;
+  border-radius: 16px;
+}
+.des-img4 {
+  width: 475px;
+  height: 285px;
+  margin: 7px;
+  border-radius: 16px;
+}
+.des-img5 {
+  width: 275px;
+  height: 285px;
+  margin: 7px;
+  border-radius: 16px;
+}
+.des-row2 {
+  display: flex;
+  justify-content: center;
+}
+.des-row3 {
+  display: flex;
+  justify-content: center;
+}
+.des-img6 {
+  width: 470px;
+  height: 300px;
+  margin: 7px;
+  border-radius: 16px;
+}
+.des-img7 {
+  width: 670px;
+  height: 300px;
+  margin: 7px;
+  border-radius: 16px;
+}
+/* Why Choose Us section starts here */
+.why-text {
+  text-align: center;
+  margin-top: 100px;
+}
+.why-box {
+  margin-top: 50px;
+}
+.box1 {
+  width: 570px;
+  height: 285px;
+  border-radius: 15px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background-color: rgba(251, 181, 99, 0.05);
+  margin: 10px;
+}
+.box2 {
+  width: 570px;
+  height: 285px;
+  border-radius: 15px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  margin: 10px;
+}
+.box3 {
+  width: 570px;
+  height: 285px;
+  border-radius: 15px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+.icon-tag {
+  padding: 30px;
+}
+.services {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 20px 0px 20px 0px;
+}
+.box-part1 {
+  display: flex;
+  justify-content: center;
+}
+.box-part2 {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+/* my section starts here */
+
+.trips {
+  margin-top: 100px;
+  text-align: center;
+}
+.trip-imgcont {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  text-align: center;
+}
+.trip-imgcont a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 800;
+  color: #424247;
+}
+.trip-img:hover {
+  transform: scale(0.9);
+}
+
+/* Newsletter section starts here */
+.news-part1 {
+  width: 474px;
+  height: 422px;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  text-align: center;
+}
+hr {
+  width: 300px;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+.news-input > input {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  margin: 15px;
+  padding-left: 15px;
+  border: none;
+}
+.news-input button {
+  width: 393px;
+}
+.news-img {
+  width: 672px;
+  height: 422px;
+}
+.news {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.news-discountcont {
+  width: 50%;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #ff5400;
+  position: relative;
+  top: -150px;
+  right: -330px;
+  text-align: center;
+}
+.travel {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.discount {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+/* footer section starts here */
+.foot {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(19, 19, 24, 0.05);
+  margin-top: 100px;
+  text-align: center;
+}
+.foot-part1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.foot-icon {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.icons {
+  margin: 10px;
+  font-size: 2rem;
+}
+.foot hr {
+  width: 872px;
+  margin-left: 300px;
+}
+.copyright {
+  margin-top: 30px;
 }
