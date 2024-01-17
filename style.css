@@ -159,6 +159,9 @@ p {
 .destination {
   margin-top: 100px;
 }
+.destination-text{
+  text-align: center;
+}
 .destination-images {
   margin-top: 50px;
   text-align: center;
