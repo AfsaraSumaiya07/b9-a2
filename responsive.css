@@ -1,4 +1,26 @@
 @media screen and (max-width: 600px) {
+  .nav-part2 {
+    display: none;
+  }
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu {
+    display: block;
+  }
+  .banner-img {
+    height: auto;
+  }
+  .input-primary {
+    width: 100%;
+    margin: 5px auto;
+  }
+  .button-cont {
+    width: 58%;
+    margin-right: 200px;
+    margin-top: 5px;
+  }
   .banner-input {
     display: flex;
     flex-direction: column;
@@ -14,8 +36,7 @@
     margin-bottom: 10px;
   }
   .des-row1 {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
   .des-row2 {
     display: flex;
@@ -29,10 +50,26 @@
   .box-part1 {
     flex-direction: column;
   }
+  .trip-imgcont {
+    display: flex;
+    flex-direction: column;
+  }
   .news {
     flex-direction: column;
   }
+  .news-img > img {
+    width: 180%;
+    height: 300px;
+    margin-top: 10px;
+  }
   .news-part1 {
     margin-bottom: 10px;
+  }
+  .trip-imgcont {
+    flex-direction: column;
+  }
+  .news-discountcont {
+    top: -140px;
+    right: -230px;
   }
 }
