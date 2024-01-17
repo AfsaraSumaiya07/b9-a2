@@ -301,7 +301,6 @@ a {
   border-radius: 16px;
   border: 1px solid #ff5400;
   text-align: center;
-  /* margin-left: 50px; */
   
 }
 hr {
@@ -339,7 +338,7 @@ hr {
   background: #ff5400;
   position: relative;
   top: -150px;
-  right: -330px;
+  right: -320px;
   text-align: center;
 }
 .travel {

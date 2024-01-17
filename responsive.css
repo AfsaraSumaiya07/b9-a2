@@ -1,3 +1,21 @@
+/* @media screen and (max-width:992px) {
+  .news-part1 {
+    width: auto;
+    height: 380px;
+    border-radius: 16px;
+    border: 1px solid #ff5400;
+    text-align: center;
+    
+    
+  }
+  .news-img{
+    width: 60%;
+    margin-left: 50px;
+  }
+  .news-discountcont {
+    width: 50%;
+  }
+} */
 @media screen and (max-width: 600px) {
   .nav-part2 {
     display: none;
@@ -78,3 +96,4 @@
     right: -230px;
   }
 }
+
